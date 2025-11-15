@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MovieBox (Community)</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="images/icons8-visual-studio-150.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
+      integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="nav-bar">
+        <img src="./images/Logo.png" alt="logo" class="logo" />
+        <div class="search-bar">
+          <input type="text" placeholder="Search Movies" class="search-input" />
+          <img
+            src="images/icons8-search-50.png"
+            alt="search"
+            class="search-box"
+          />
+        </div>
+        <div class="sign-details">
+          <button class="sign-in">Sign in</button>
+        </div>
+        <button class="hamburger" aria-label="Toggle menu">
+          <img
+            src="images/icons8-menu-24.png"
+            alt="menu"
+            height="20"
+            width="30"
+          />
+        </button>
+      
+        <ul class="filters">
+          <li><button class="filter-btn active" data-type="genre">Genre</button></li>
+          <li><button class="filter-btn" data-type="country">Country</button></li>
+          <li><button class="filter-btn" data-type="movie">Movie</button></li>
+        </ul>
+      </nav>
+
+      <div class="movie-info">
+        <img src="images/Poster.png" alt="John Wick 3 Poster" />
+        <div class="overlay">
+          <h1>John Wick 3: Parabellum</h1>
+          <p>
+            John Wick is declared excommunicado and a bounty is set on him after
+            he murders an international crime lord.
+          </p>
+          <button><i class="fa-solid fa-circle-play"></i> Watch Trailer</button>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="featured">
+        <h2>Featured Movies</h2>
+        <button class="see-more">See more ></button>
+      </div>
+
+      <div class="movie-cards">
+        <figure>
+          <img
+            src="images/Despicabe Me 3 (2017).jpeg"
+            alt="Despicable Me"
+            class="fig-img"
+          />
+          <figcaption class="dates">USA, 2017-current</figcaption>
+          <b>Despicable Me 3</b>
+          <figcaption>
+            <img src="images/icons8-imdb-48 (1).png" alt="IMDb" class="IMDb" />
+          </figcaption>
+          <figcaption class="gernes">Comedy, Action, Drama</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="images/All American Cast Season 2 at Salomemitchell.jpeg"
+            alt="All American"
+            class="fig-img"
+          />
+          <figcaption class="dates">USA, 2023</figcaption>
+          <b>All American</b>
+          <figcaption>
+            <img src="images/icons8-imdb-48 (1).png" alt="IMDb" class="IMDb" />
+          </figcaption>
+          <figcaption class="gernes">Action, Drama</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="images/One of Them Days (2025).jpeg"
+            alt="One of Them Days"
+            class="fig-img"
+          />
+          <figcaption class="dates">USA, 2025</figcaption>
+          <b>One of Them Days</b>
+          <figcaption>
+            <img src="images/icons8-imdb-48 (1).png" alt="IMDb" class="IMDb" />
+          </figcaption>
+          <figcaption class="gernes">Comedy, Drama</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="images/Orion and The Dark.jpeg"
+            alt="Orion and The Dark"
+            class="fig-img"
+          />
+          <figcaption class="dates">USA, 2024</figcaption>
+          <b>Orion and The Dark</b>
+          <figcaption>
+            <img src="images/icons8-imdb-48 (1).png" alt="IMDb" class="IMDb" />
+          </figcaption>
+          <figcaption class="gernes">Comedy, Drama, Adventure</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/_.jpeg" alt="Home" class="fig-img" />
+          <figcaption class="dates">USA, 2015</figcaption>
+          <b>Home</b>
+          <figcaption>
+            <img src="images/icons8-imdb-48 (1).png" alt="IMDb" class="IMDb" />
+          </figcaption>
+          <figcaption class="gernes">Comedy, Action, Adventure</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/_ copy 4.jpeg" alt="Fatherhood" class="fig-img" />
+          <figcaption class="dates">USA, 2021</figcaption>
+          <b>Fatherhood</b>
+          <figcaption>
+            <img src="images/icons8-imdb-48 (1).png" alt="IMDb" class="IMDb" />
+          </figcaption>
+          <figcaption class="gernes">Family, Comedy</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/_ copy.jpeg" alt="Purple Heart" class="fig-img" />
+          <figcaption class="dates">USA, 2022</figcaption>
+          <b>Purple Heart</b>
+          <figcaption>
+            <img src="images/icons8-imdb-48 (1).png" alt="IMDb" class="IMDb" />
+          </figcaption>
+          <figcaption class="gernes">Family, Drama, Romance/Musical</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="images/Moana 2 ( 11_ x 17_ ) Collector's Poster Print ( T8) B2G1F.jpeg"
+            alt="Moana 2"
+            class="fig-img"
+          />
+          <figcaption class="dates">USA, 2024</figcaption>
+          <b>Moana 2</b>
+          <figcaption>
+            <img src="images/icons8-imdb-48 (1).png" alt="IMDb" class="IMDb" />
+          </figcaption>
+          <figcaption class="gernes">Comedy, Drama, Adventure</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/THE FORGE.jpeg" alt="The Forge" class="fig-img" />
+          <figcaption class="dates">USA, 2024</figcaption>
+          <b>The Forge</b>
+          <figcaption>
+            <img src="images/icons8-imdb-48 (1).png" alt="IMDb" class="IMDb" />
+          </figcaption>
+          <figcaption class="gernes">Drama</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="images/Grown Ish Season 3 Episode 1 Recap_ WTF! That's Who's Pregnant_.jpeg"
+            alt="Grownish"
+            class="fig-img"
+          />
+          <figcaption class="dates">USA, 2018</figcaption>
+          <b>Grownish</b>
+          <figcaption>
+            <img src="images/icons8-imdb-48 (1).png" alt="IMDb" class="IMDb" />
+          </figcaption>
+          <figcaption class="gernes">Comedy, Drama, Family</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/Encanto.jpeg" alt="Encanto" class="fig-img" />
+          <figcaption class="dates">USA, 2023</figcaption>
+          <b>Encanto</b>
+          <figcaption>
+            <img src="images/icons8-imdb-48 (1).png" alt="IMDb" class="IMDb" />
+          </figcaption>
+          <figcaption class="gernes">Family, Drama, Adventure</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/Little Poster.jpeg" alt="Little" class="fig-img" />
+          <figcaption class="dates">USA, 2019</figcaption>
+          <b>Little</b>
+          <figcaption>
+            <img src="images/icons8-imdb-48 (1).png" alt="IMDb" class="IMDb" />
+          </figcaption>
+          <figcaption class="gernes">Comedy, Fantasy</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <footer>
+      <div>
+        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+      </div>
+      <div class="address">
+        <a href="#">Conditions of Use</a> | <a href="#">Privacy & Policy</a> |
+        <a href="#">Press Room</a>
+      </div>
+      <p>&copy; 2025 MovieBox by Sheila Chioma Moses</p>
+    </footer>
+    <script src="scripts.js">  const hamburger = document.querySelector('.hamburger');
+      const filters = document.querySelector('.filters');
+    
+      hamburger.addEventListener('click', () => {
+        filters.classList.toggle('show');
+      });</script>
+  </body>
+</html>
